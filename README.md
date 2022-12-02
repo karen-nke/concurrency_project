@@ -1,1 +1,1 @@
-# concurrency_project
+# Simple Concurrency Project - Java
