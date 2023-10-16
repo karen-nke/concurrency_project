@@ -27,18 +27,3 @@ This project is part of coursework for SCC 211, focusing on fundamental concepts
 ## Output
 The program will print a sequence of statements for each operation, including the operation performed and the resulting inventory size. The final inventory size will be displayed after all add and remove threads have finished.
 
-## Evaluation Criteria
-- **Input Handling**: Up to 2 points for correctly taking input via command line arguments.
-- **Thread Launching**: Up to 10 marks for launching threads corresponding to the specified number of add and remove operations.
-- **Correct Output (Bug Flag = 0)**: Up to 5 marks for producing the correct result.
-- **Incorrect Output (Bug Flag = 1)**: Up to 3 marks for intentionally producing an incorrect result.
-
-## Suggested Steps for Completion
-- **Week 1**: Implement a multithreaded program, initially incrementing a shared counter. Extend to maintain a shared inventory size using a Warehouse object.
-- **Week 2**: Add command line arguments for the number of remove operations. Implement synchronization to prevent race conditions.
-- **Week 3**: Introduce a bug flag. If 0, execute with synchronization; if 1, execute without synchronization to manifest a race condition.
-
-## Submission
-Submit a zip file containing all source code (.java) files with no subfolders. Include a Readme.txt with your full name and student ID number.
-
-**Note**: Ensure the program handles edge cases and provides the desired output as described in the program specification.
