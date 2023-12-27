@@ -27,3 +27,4 @@ This project is part of coursework for SCC 211, focusing on fundamental concepts
 ## Output
 The program will print a sequence of statements for each operation, including the operation performed and the resulting inventory size. The final inventory size will be displayed after all add and remove threads have finished.
 
+_Coursework for SCC 211(UK)  & CSC2104(MY) Operating System Fundamentals (August 2022 - December 2022)_
